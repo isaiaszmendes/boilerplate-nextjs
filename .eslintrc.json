@@ -26,10 +26,10 @@
     "sourceType": "module"
   },
   "plugins": [
-      "react",
-      "react-hooks",
-      "prettier",
-      "@typescript-eslint"
+    "react",
+    "react-hooks",
+    "prettier",
+    "@typescript-eslint"
   ],
   "rules": {
     "react-hooks/rules-of-hooks": "error",
