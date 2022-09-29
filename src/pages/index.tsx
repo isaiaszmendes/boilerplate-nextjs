@@ -1,6 +1,7 @@
 import Head from 'next/head';
 
 export default function Home({ title = 'title React' }) {
+  const aasd = '';
   return (
     <Head>
       <title>{title}</title>
