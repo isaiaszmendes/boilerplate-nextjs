@@ -6,10 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint src --max-warnings=0"
+    "lint": "eslint src --max-warnings=0",
+    "postinstall": "husky install"
   },
   "lint-staged": {
-    "src/**/*": ["npm exec lint --fix"]
+    "src/**/*": ["npm run lint --fix"]
   },
   "dependencies": {
     "eslint-plugin-react-hooks": "^4.6.0",
