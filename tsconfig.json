@@ -8,7 +8,7 @@
     ],
     "baseUrl": "src",
     "paths": {
-      "@/components/*": ["pages/components/*"],
+      "@/components/*": ["components/*"],
       "@/styles/*": ["styles/*"]
     },
     "allowJs": true,

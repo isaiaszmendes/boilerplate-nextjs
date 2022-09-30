@@ -13,7 +13,7 @@ export const Wrapper = styled.main`
   justify-content: center;
 `;
 export const Logo = styled.img`
-  width: 10rem;
+  width: 20rem;
   margin-bottom: 2rem;
 `;
 
@@ -26,5 +26,5 @@ export const Description = styled.h2`
 `;
 
 export const Illustration = styled.img`
-  width: min(30rem, 60rem);
+  width: min(25rem, 100%);
 `;
